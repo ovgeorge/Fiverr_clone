@@ -6,9 +6,9 @@ from django.contrib.auth.models import User
 from .forms import GigForm
 from django.contrib.auth.decorators import login_required
 from django.conf import settings
-import stripe
+#import stripe
 
-stripe.api_key = settings.STRIPE_SECRET_KEY
+#stripe.api_key = settings.STRIPE_SECRET_KEY
 
 
 

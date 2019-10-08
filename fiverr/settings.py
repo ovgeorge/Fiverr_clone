@@ -79,10 +79,10 @@ WSGI_APPLICATION = 'fiverr.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'fiverrdb',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'fiverr.db',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost'
     }
 }
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/2.2/topics/i18n/
 
-LANGUAGE_CODE = 'fr-fr'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 
